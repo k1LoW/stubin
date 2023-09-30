@@ -33,7 +33,7 @@ depsdev:
 	go install github.com/k1LoW/gostyle@latest
 
 prerelease_for_tagpr:
-	gocredits -skip-missing -w
+	gocredits -w .
 	git add CHANGELOG.md CREDITS go.mod go.sum
 
 release:
