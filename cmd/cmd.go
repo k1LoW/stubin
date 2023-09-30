@@ -27,7 +27,7 @@ func Run(args []string, stdout, stderr io.Writer) int {
 	args = args[1:]
 	prefix := fmt.Sprintf("%s_", strings.ToUpper(bin))
 
-	expects := []string{}
+	var expects []string
 	for _, e := range os.Environ() {
 		pair := strings.SplitN(e, "=", 2)
 		if !strings.HasPrefix(pair[0], prefix) {

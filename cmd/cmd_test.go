@@ -64,13 +64,13 @@ func TestRun(t *testing.T) {
 			}
 			got := Run(tt.args, stdout, stderr)
 			if got != tt.wantStatus {
-				t.Errorf("Run() = %v, want %v", got, tt.wantStatus)
+				t.Errorf("got %v, want %v", got, tt.wantStatus)
 			}
 			if stdout.String() != tt.wantStdout {
-				t.Errorf("Run() STDOUT %v, want %v", stdout.String(), tt.wantStdout)
+				t.Errorf("got STDOUT %v, want %v", stdout.String(), tt.wantStdout)
 			}
 			if stderr.String() != tt.wantStderr {
-				t.Errorf("Run() STDERR %v, want %v", stderr.String(), tt.wantStderr)
+				t.Errorf("got STDERR %v, want %v", stderr.String(), tt.wantStderr)
 			}
 		})
 	}
