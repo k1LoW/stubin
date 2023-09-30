@@ -34,3 +34,46 @@ Usage: stubin [-h]
 $ stubin test
 This is test.
 ```
+
+## Install
+
+**go install:**
+
+```console
+$ go install github.com/k1LoW/stubin@latest
+```
+
+**homebrew tap:**
+
+```console
+$ brew install k1LoW/tap/stubin
+```
+
+**deb:**
+
+``` console
+$ export STUBIN_VERSION=X.X.X
+$ curl -o stubin.deb -L https://github.com/k1LoW/stubin/releases/download/v$STUBIN_VERSION/stubin_$STUBIN_VERSION-1_amd64.deb
+$ dpkg -i stubin.deb
+```
+
+**RPM:**
+
+``` console
+$ export STUBIN_VERSION=X.X.X
+$ yum install https://github.com/k1LoW/stubin/releases/download/v$STUBIN_VERSION/stubin_$STUBIN_VERSION-1_amd64.rpm
+```
+
+**apk:**
+
+``` console
+$ export STUBIN_VERSION=X.X.X
+$ curl -o stubin.apk -L https://github.com/k1LoW/stubin/releases/download/v$STUBIN_VERSION/stubin_$STUBIN_VERSION-1_amd64.apk
+$ apk add stubin.apk
+```
+
+**manually:**
+
+Download binary from [releases page](https://github.com/k1LoW/runn/releases)
+
+
