@@ -21,6 +21,8 @@ $
 
 Also, it is possible to fine-tune control using the `[Binary name]_EXPECT_` environment variables.
 
+It is possible to set conditions using the `args` in which the arguments are stored (`[Binary name]_EXPECT_COND_[Key]`) and the behavior when those conditions are met (`[Binary name]_EXPECT_STATUS_[Key]`, `[Binary name]_EXPECT_STDOUT_[Key]`, `[Binary name]_EXPECT_STDERR_[Key]`).
+
 ```console
 $ export STUBIN_EXPECT_COND_HELP="'-h' in args"
 $ export STUBIN_EXPECT_STDOUT_HELP="Usage: stubin [-h]
@@ -75,5 +77,3 @@ $ apk add stubin.apk
 **manually:**
 
 Download binary from [releases page](https://github.com/k1LoW/runn/releases)
-
-
