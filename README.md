@@ -76,4 +76,4 @@ $ apk add stubin.apk
 
 **manually:**
 
-Download binary from [releases page](https://github.com/k1LoW/runn/releases)
+Download binary from [releases page](https://github.com/k1LoW/stubin/releases)
