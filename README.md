@@ -51,6 +51,12 @@ $ go install github.com/k1LoW/stubin@latest
 $ brew install k1LoW/tap/stubin
 ```
 
+**[aqua](https://aquaproj.github.io/):**
+
+```console
+$ aqua g -i k1LoW/stubin
+```
+
 **deb:**
 
 ``` console
